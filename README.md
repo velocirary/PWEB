@@ -1,6 +1,6 @@
 # Programação WEB
 
-<p>Esse repositório é destinado às <ins>atividades</ins> e <ins>provinhas</ins> desenvolvidas na discplina de PWEB durante a graduação em <b>Análise e Desenvolvimento de Sistemas</b> (ADS) na Fatec Sorocaba</P
+<p>Esse repositório é destinado às <ins>atividades</ins> e <ins>provinhas</ins> desenvolvidas na disciplina de PWEB durante a graduação em <b>Análise e Desenvolvimento de Sistemas</b> (ADS) na Fatec Sorocaba</P
 
 
 

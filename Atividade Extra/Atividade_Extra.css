@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-weight: 400;    
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.minhaDiv{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    text-align: center;
+    margin: 0 16 px;
+}
+
+@media (min-width: 420px){
+    .minhaDiv{
+        background-color: grey;
+    }
+    h1::after{
+        content: "Cinzinha";
+    }
+} 
+
+@media (min-width: 768px){
+    .minhaDiv{
+        background-color: orangered;
+    }
+
+    h1::after{
+        content: "Laranjinha";
+    }
+}
+
+@media (min-width: 1024px){
+    .minhaDiv{
+        background-color: palevioletred;
+    }
+
+    h1::after{
+        content: "Rosinha";
+    }
+} 
+
+@media (min-width: 1366px){
+    .minhaDiv{
+        background-color: rebeccapurple;
+    }
+
+    h1::after{
+        content: "Roxinho";
+    }
+} 
+
+@media (min-width: 1920px){
+    .minhaDiv{
+        background-color: yellow;
+    }
+
+    h1::after{
+        content: "Amarelinho";
+    }
+} 

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pesquisa 🔎</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <script type="text/javascript" src="script.js"></script>
+    <main class=main>
+        <div class="inputs">
+            <p class="titulo"><b>PESQUISA DE PÚBLICO</b></p>
+            <br>
+            <label for="idade">Idade</label>
+            <input id="idade" name="idade" type="text" />
+            <label for="genero">Sexo </label>
+            <select name="genero" id="genero">
+                <option value="0">
+                    Masculino
+                </option>
+                <option value="1">
+                    Feminino
+                </option>
+            </select>
+            <fieldset class="opiniaoSelect">
+                <legend>Opinião:</legend>
+                <input type="radio" id="otimo" name="opiniao" value="4">
+                <label for="otimo">Ótimo</label>
+                <input type="radio" id="bom" name="opiniao" value="3">
+                <label for="bom">Bom</label>
+                <input type="radio" id="regular" name="opiniao" value="2">
+                <label for="regular">Regular</label>
+                <input type="radio" id="pessimo" name="opiniao" value="1">
+                <label for="pessimo">Péssimo</label>
+
+            </fieldset>
+            <button onclick="onClick()" class="submit">Enviar</button> 
+            <p id="envioResposta"></p>            
+        </div>
+        <div class="resultadoPesquisa">
+            <fieldset class="tabela">
+                <table>
+                    <th colspan="2">Resultado da Pesquisa</th>
+                    <tr>
+                        <td>A media da idade dos participantes: </td>
+                        <td id="mediaIdade"></td>
+                    </tr>
+                    <tr>
+                        <td>Idade da pessoa mais velha: </td>
+                        <td id="idadeVelha"></td>
+                    </tr>
+                    <tr>
+                        <td>Idade da pessoa mais nova:</td>
+                        <td id="idadeNova"></td>
+                    </tr>
+                    <tr>
+                        <td>Quantidade de Respostas Péssimas: </td>
+                        <td id="respostasPessimas"></td>
+                    </tr>
+                    <tr>
+                        <td>Porcentual de respostas ótimas e boas: </td>
+                        <td id="respostasOtimas"></td>
+                    </tr>
+                    <tr>
+                        <td>Quantidade de Mulheres: </td>
+                        <td id="qtdeMulheres"></td>
+                    </tr>
+                    <tr>
+                        <td>Quantidade de Homens: </td>
+                        <td id="qtdeHomens"></td>
+                    </tr>
+                </table>
+                <button onclick="reloadPage()" class="submit">Refazer</button> 
+            </fieldset>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #2e2e2e;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 60vh;
+    box-shadow: #000000;
+}
+
+.inputs {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 2rem;
+    max-width: 25rem;
+}
+
+input[type="text"],
+select {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+    border: 1px solid #ccc;
+}
+
+p{
+    text-align: center;
+}
+fieldset {
+    margin: 0.1rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+}
+
+.submit {
+    margin-top: 1rem;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit:hover {
+    background-color: #494949;
+}
+
+.titulo {
+    margin: 0.1em;
+    text-align: center;
+}
+
+#genero {
+    margin: 0.6rem;
+}
+
+.tabela {
+    background-color: #f2f2f2;
+    text-align: center;
+    border-collapse: collapse;
+    border-radius: 5px;
+}
+
+.tabela
+td {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    text-align: center;
+}
+
+.tabela th {
+    color: #333;
+    padding: 10px;
+}
+
+.resultadoPesquisa {
+    display: none;
+}

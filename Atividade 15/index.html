@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Atividade15</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src='script.js'></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <form name="pesquisa" id="pesquisa" onsubmit="return Enviar();">
+            <label for="cursos">Escolha um curso:</label>
+            <select name="cursos" id="cursos" onchange="confirmar()">
+                <option disabled selected value>Selectione um curso</option>
+                <option value="ADS">Análise e Desenvolvimento de Sistemas</option>
+                <option value="SBio">Sistemas Biomédicos</option>
+                <option value="Logistica">Logistica</option>
+                <option value="Polimeros">Polimeros</option>
+                <option value="EA">Eletrônica automotiva</option>
+            </select>
+        </form>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 14</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="return CloseModal();">&times;</span>
+            <label id="lblTitulo"></label>
+            <label id="lblMensagem"></label>
+        </div>
+    </div>
+
+    <div class="container">
+        <form name="pesquisa" id="pesquisa" onsubmit="return Enviar();">
+            <h1>Formulário Principal</h1>
+
+            <label for="lblNome">Nome</label>
+            <input type="text" name="txtNome" id="txtNome">
+
+            <label for="lblEmail">Email</label>
+            <input type="email" name="txtEmail" id="txtEmail">
+        
+            <label for="lblComentario">Comentários</label>        
+            <textarea name="txtComentario" id="txtComentario" cols="30" rows="5"></textarea>
+                        
+            <label for="lblPergunta">Primeira vez nesta página?</label>
+            <p>
+                <input type="radio" name="resposta" id="rdbSim">
+                <label for="rdbSim">Sim</label>
+                <input type="radio" name="resposta" id="rdbNao">
+                <label for="rdbNao">Não</label>
+            </p>
+
+            <div class="button-group">
+                <input name="Submit" type="submit" form="pesquisa" value="Enviar">
+                <input name="Reset" type="reset" form="pesquisa" value="Redefinir">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
